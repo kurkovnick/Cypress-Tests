@@ -1,3 +1,3 @@
-# Python Automation Scripts 
+# Cypress Automation Scripts 
 
-Included are my automation scripts in Python using Selenium Webdriver 
+Included are my automation scripts in JS using Webdriver 

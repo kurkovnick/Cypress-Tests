@@ -1,0 +1,23 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "Included are my automation scripts in JS using Webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurkovnick/Cypress-Tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurkovnick/Cypress-Tests/issues"
+  },
+  "homepage": "https://github.com/kurkovnick/Cypress-Tests#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}

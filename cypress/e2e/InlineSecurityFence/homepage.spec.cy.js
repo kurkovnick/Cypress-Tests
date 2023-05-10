@@ -23,7 +23,7 @@ describe('Home Page Tests', () => {
     cy.url().should( 'eq' , 'https://inlinesecurityfence.com/fences/')
   })
 
-  t('Get a Free Quote Link Takes to the Quotes Page', () => {
+  it('Get a Free Quote Link Takes to the Quotes Page', () => {
     // Visit the website
     cy.visit('https://www.inlinesecurityfence.com')
 

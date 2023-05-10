@@ -1,6 +1,6 @@
 /// <reference types="Cypress"/>
 
-describe('Test all Buttons on inlinesecurityfence.com', () => {
+describe('Home Page Tests', () => {
   it('Get a Free Quote Link Takes to the Quotes Page', () => {
     // Visit the website
     cy.visit('https://www.inlinesecurityfence.com')
@@ -12,7 +12,7 @@ describe('Test all Buttons on inlinesecurityfence.com', () => {
     cy.url().should( 'eq' , 'https://inlinesecurityfence.com/quote/')
   })
 
-  it('Get a Free Quote Link Takes to the Quotes Page', () => {
+  it('"View Our Fence Styles" Link Takes to the Quotes Page', () => {
     // Visit the website
     cy.visit('https://www.inlinesecurityfence.com')
 
@@ -21,7 +21,17 @@ describe('Test all Buttons on inlinesecurityfence.com', () => {
     cy.get( '[aria-label="View Our Fence Styles"]' )
       .click();
     cy.url().should( 'eq' , 'https://inlinesecurityfence.com/fences/')
-    cy.get().viewport()
+  })
+
+  t('Get a Free Quote Link Takes to the Quotes Page', () => {
+    // Visit the website
+    cy.visit('https://www.inlinesecurityfence.com')
+
+    // Select the Get a Free Quote
+    
+    cy.get( '[data-id="61f9c09a"] a' )
+      .click();
+    cy.url().should( 'eq' , 'https://inlinesecurityfence.com/about/')
   })
 })
 

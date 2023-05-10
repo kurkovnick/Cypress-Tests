@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
-    "endtoend": "./node_modules/.bin/cypress run"
+    "endtoend": "NO_COLOR=1 ./node_modules/.bin/cypress run"
   },
   "repository": {
     "type": "git",

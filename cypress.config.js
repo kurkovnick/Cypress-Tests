@@ -5,7 +5,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    defaultCommandTimeout : 15000,
+    defaultCommandTimeout : 25000,
+    pageLoadTimeout : 160000,
+    baseUrl : 'https://schoolofqa.com',
   },
 
   component: {

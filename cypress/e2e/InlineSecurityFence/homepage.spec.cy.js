@@ -65,7 +65,7 @@ describe('Home Page Tests', () => {
 
     // Select the Get a Free Quote
     
-    cy.get( '[aria-label="Explore Chain Link Fences"]' )
+    cy.get( '[aria-label="Explore Anti-Climb Fences"]' )
       .click();
     cy.url().should( 'eq' , 'https://inlinesecurityfence.com/fences/#AntiClimb')
   })

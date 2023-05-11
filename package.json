@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
-    "inlineSecurityFence" : "NO_COLOR=1 npx cypress run --spec 'cypress/e2e/InlineSecurityFence/*'"
+    "inlineSecurityFence": "NO_COLOR=1 npx cypress run --spec 'cypress/e2e/InlineSecurityFence/*'"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/kurkovnick/Cypress-Tests#readme",
   "devDependencies": {
-    "cypress": "^12.10.0"
+    "cypress": "^12.10.0",
+    "cypress-email-results": "^1.8.0"
   }
 }

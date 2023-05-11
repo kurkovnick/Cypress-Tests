@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
-    "inlineSecurityFence" : "npx cypress run --spec 'cypress/e2e/InlineSecurityFence/*'"
+    "inlineSecurityFence" : "NO_COLOR=1 npx cypress run --spec 'cypress/e2e/InlineSecurityFence/*'"
   },
   "repository": {
     "type": "git",

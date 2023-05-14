@@ -3,9 +3,7 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      require('cypress-email-results')(on, config, {
-        email: ['nick@itishniki.com'],
-      })
+    
     },
     defaultCommandTimeout : 100000,
     pageLoadTimeout : 160000,

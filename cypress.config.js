@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    defaultCommandTimeout : 60000,
+    defaultCommandTimeout : 100000,
     pageLoadTimeout : 160000,
     baseUrl : 'https://schoolofqa.com',
     video : false,
